@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart To-Do Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+  <div class="logo">📌 Taskify</div>
+  <nav>
+    <a href="all-tasks.html" target="_blank" class="nav-link">📄 View All Tasks</a>
+  </nav>
+</header>
+  <div class="container">
+    <h1>Taskify</h1>
+
+    <form id="task-form">
+      <input type="text" id="task-title" placeholder="Task Title" required />
+      <textarea id="task-desc" placeholder="Task Description"></textarea>
+
+      <div class="form-group">
+        <select id="task-priority">
+          <option value="1">🔴 High</option>
+          <option value="2">🟡 Medium</option>
+          <option value="3">🟢 Low</option>
+        </select>
+
+        <input type="date" id="task-deadline" required />
+        <input type="time" id="task-time" required />
+        <button type="submit">Add Task</button>
+      </div>
+    </form>
+
+    <div id="task-list">
+      <!-- Tasks will appear here -->
+    </div>
+
+    <div id="stats" style="margin-top: 20px; font-size: 0.9em; color: #333;"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
