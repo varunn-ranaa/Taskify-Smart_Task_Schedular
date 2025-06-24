@@ -66,8 +66,9 @@ Taskify/
 3. Run backend:
 ```bash
 node server.js
-```bash
 4. Open `index.html` in your browse
+```
+
 
 -------------------------------------------------------------------------------------
 
