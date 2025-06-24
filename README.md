@@ -1,7 +1,7 @@
 
-# 📝 Taskify – Smart Task Schedular
+# 📝 Taskify – Smart Task Scheduler
 
-**Taskify** is a full-stack to-do list application that lets users manage their tasks efficiently with time-based alerts, priority levels, and real-time notifications.
+The Taskify project follows a modular and scalable full-stack web development approach using the MERN-like stack (excluding React for now). The backend is implemented using Node.js and Express.js, providing RESTful API endpoints to handle all task-related operations, including task creation, deletion, updating, and retrieval. These APIs ensure clean communication between the frontend and the server,MongoDB database connected through Mongoose, is used to store task data persistently. The web application that lets users manage their tasks efficiently with time-based alerts, priority levels, and real-time notifications.
 
 ## 🚀 Features
 
@@ -66,8 +66,8 @@ Taskify/
 3. Run backend:
 ```bash
 node server.js
-```
-4. Open `index.html` in your browser
+```bash
+4. Open `index.html` in your browse
 
 -------------------------------------------------------------------------------------
 
